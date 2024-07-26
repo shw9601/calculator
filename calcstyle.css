@@ -1,0 +1,41 @@
+#housing {
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    background-color: darkgrey;
+    height: 600px;
+    width: 480px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#display {
+    background-color: white;
+    height: 60px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+ 
+}
+
+
+.rows {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+.button {
+    border: 4px;
+    margin: 4px;
+    border-style: solid;
+    border-color:black;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
